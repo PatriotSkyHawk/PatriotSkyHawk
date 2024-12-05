@@ -5,19 +5,19 @@
     "candidateCount": 1,
     "topP": 0.95,
     "topK": 40,
-    "maxOutputTokens": 8192,
+    "maxOutputTokens": 0,
     "safetySettings": [{
       "category": "HARM_CATEGORY_HARASSMENT",
-      "threshold": "BLOCK_NONE"
+      "threshold": "BLOCK_MOST"
     }, {
       "category": "HARM_CATEGORY_HATE_SPEECH",
-      "threshold": "BLOCK_NONE"
+      "threshold": "BLOCK_MOST"
     }, {
       "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
-      "threshold": "BLOCK_NONE"
+      "threshold": "BLOCK_MOST"
     }, {
       "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
-      "threshold": "BLOCK_NONE"
+      "threshold": "BLOCK_MOST"
     }],
     "responseMimeType": "text/plain",
     "enableCodeExecution": false
